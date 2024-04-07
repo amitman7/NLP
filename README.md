@@ -1,6 +1,5 @@
 # NLP
-### NLP Project I Worked on During My Degree.
-
+NLP Project I Worked on During My Degree.
 During our work, we wanted to explore the differences between the songs of our time (the 21st century) and older songs written by poets of the "Generation of the State"
 
 # Research Question
@@ -55,4 +54,6 @@ We hypothesize that the high accuracy is due to the careful selection of feature
 
 # conclusion
 ### These results suggest that there is no single most effective type of feature for all songs, and that the best feature set depends on the method used. 
+![Figure_1](https://github.com/amitman7/NLP-/assets/118345516/a71e8861-c95a-432e-838b-e343e45f3b8b)
+
 it should be noted  that we performed the model on a relatively limited dataset. It is likely that if we perform it on a larger dataset, we may be able to find an ideal method. This is a question for further research
