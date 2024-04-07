@@ -43,7 +43,7 @@ Using SVM liblinear, the most effective feature was lexical usage, with an accur
 Using SVM libsvm, the most effective features were phraseology and a combination of all features, with an accuracy of 94%.
 
 # Malu features
-In addition, in order to examine the effectiveness of the features taken in the paper, we performed an additional analysis of the data using a feature set from Malu (The Academic Center for Examinations and Evaluation).
+In addition, in order to examine the effectiveness of the features taken in the paper, we performed an additional analysis of the data using a feature set from Malu (National Institutefor Examinations and Evaluation).
 
 The Malu feature set includes 41 features. Some of the features are similar to the features taken in the paper (number of words, word length, etc.), and some are specific to the Hebrew language that the paper does not take into account (percentage of verbs in Hebrew, etc.).
 
