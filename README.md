@@ -19,18 +19,18 @@ The data consists of two groups of songs - old songs and new songs. Using the me
 
 ### To answer these questions, we divided the features into three categories, as suggested in the paper:
 
-  Phraseology analysis
-  Punctuation analysis
-  Lexical usage analysis
+    Phraseology analysis
+    Punctuation analysis
+    Lexical usage analysis
 Since our data is Hebrew songs, we used Hebrew stop words from the nltk API in lexical usage analysis.
 
 Based on these features, we created four types of vectors (one vector for each category and one vector for all categories) that we trained using scikit-learn.
 
 In scikit-learn, we used three methods:
 
-  Logistic Regression
-  SVM Liblinear
-  SVM Libsvm
+    Logistic Regression
+    SVM Liblinear
+    SVM Libsvm
 
 
 # results
