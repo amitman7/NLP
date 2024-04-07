@@ -47,7 +47,7 @@ In addition, in order to examine the effectiveness of the features taken in the 
 
 The Malu feature set includes 41 features. Some of the features are similar to the features taken in the paper (number of words, word length, etc.), and some are specific to the Hebrew language that the paper does not take into account (percentage of verbs in Hebrew, etc.).
 
-# Conclusions from the Results of the New Feature Set
+# results of the  Malu features
 The results show that the new feature set achieves similar high accuracy to the feature set in the paper. In some cases, the new feature set even performs better (e.g., Logistic Regression).
 
 We hypothesize that the high accuracy is due to the careful selection of features in the new feature set. However, we cannot definitively conclude that the specific selection of features relevant to Hebrew texts improves the results.
