@@ -7,16 +7,17 @@ During our work, we wanted to explore the differences between the songs of our t
 Does the content of Hebrew songs written between 1930-1970 (by the poets of the Generation of the State) differ from that of contemporary songs (songs written in the 21st century)? If so, what are the differences, and what do they tell us about the changing ethos of the Jewish people?
 
 As part of the project, I read and implemented the paper:
- Stylometry-based Approach for Detecting Writing Style Changes in Literary Texts
+### Stylometry-based Approach for Detecting Writing Style Changes in Literary Texts
 
 The paper proposes a method for detecting changes in writing style using stylometric features.
 
-Implementation of the Methods Presented in the Paper on Our Data
+# Implementation of the Methods Presented in the Paper on Our Data
 The data consists of two groups of songs - old songs and new songs. Using the methods presented in the paper, we tried to find out two things:
 
-Can we use machine learning tools to distinguish between an old and a new song?
-What is the difference between new and old songs?
-To answer these questions, we divided the features into three categories, as suggested in the paper:
+### Can we use machine learning tools to distinguish between an old and a new song?
+### What is the difference between new and old songs?
+
+### To answer these questions, we divided the features into three categories, as suggested in the paper:
 
 Phraseology analysis
 Punctuation analysis
