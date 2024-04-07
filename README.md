@@ -19,18 +19,18 @@ The data consists of two groups of songs - old songs and new songs. Using the me
 
 ### To answer these questions, we divided the features into three categories, as suggested in the paper:
 
-Phraseology analysis
-Punctuation analysis
-Lexical usage analysis
+  Phraseology analysis
+  Punctuation analysis
+  Lexical usage analysis
 Since our data is Hebrew songs, we used Hebrew stop words from the nltk API in lexical usage analysis.
 
 Based on these features, we created four types of vectors (one vector for each category and one vector for all categories) that we trained using scikit-learn.
 
 In scikit-learn, we used three methods:
 
-Logistic Regression
-SVM Liblinear
-SVM Libsvm
+  Logistic Regression
+  SVM Liblinear
+  SVM Libsvm
 
 
 # results
@@ -43,7 +43,7 @@ Using SVM liblinear, the most effective feature was lexical usage, with an accur
 
 Using SVM libsvm, the most effective features were phraseology and a combination of all features, with an accuracy of 94%.
 
-
+# Malu features
 In addition, in order to examine the effectiveness of the features taken in the paper, we performed an additional analysis of the data using a feature set from Malu (The Academic Center for Examinations and Evaluation).
 The Malu feature set includes 41 features. Some of the features are similar to the features taken in the paper (number of words, word length, etc.), and some are specific to the Hebrew language that the paper does not take into account (percentage of verbs in Hebrew, etc.).
 
@@ -52,4 +52,6 @@ The results show that the new feature set achieves similar high accuracy to the 
 
 We hypothesize that the high accuracy is due to the careful selection of features in the new feature set. However, we cannot definitively conclude that the specific selection of features relevant to Hebrew texts improves the results.
 
+# conclusion
 ### These results suggest that there is no single most effective type of feature for all songs, and that the best feature set depends on the method used. 
+it should be noted  that we performed the model on a relatively limited dataset. It is likely that if we perform it on a larger dataset, we may be able to find an ideal method. This is a question for further research
