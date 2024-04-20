@@ -57,3 +57,13 @@ We hypothesize that the high accuracy is due to the careful selection of feature
 ![Figure_1](https://github.com/amitman7/NLP-/assets/118345516/a71e8861-c95a-432e-838b-e343e45f3b8b)
 
 it should be noted  that we performed the model on a relatively limited dataset. It is likely that if we perform it on a larger dataset, we may be able to find an ideal method. This is a question for further research
+
+# add about BERT and  PCA
+
+# add about the second article
+
+# add about the third article
+
+# add about statistics 
+
+# add midule
