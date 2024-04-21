@@ -17,6 +17,7 @@ The data consists of two groups of songs - old songs and new songs. Using the me
 ### 2. What is the difference between new and old songs?
 
 ### To answer these questions, we divided the features into three categories, as suggested in the paper:
+*"Stylometry-based Approach for Detecting Writing Style Changes in Literary Texts"*
 
     Phraseology analysis
     Punctuation analysis
@@ -31,6 +32,7 @@ In scikit-learn, we used three methods:
     SVM Liblinear
     SVM Libsvm
 
+* we used the code suggested in the paper from: github.com/jpotts18/stylometry
 
 # results
 
@@ -52,7 +54,7 @@ The results show that the new feature set achieves similar high accuracy to the 
 
 We hypothesize that the high accuracy is due to the careful selection of features in the new feature set. However, we cannot definitively conclude that the specific selection of features relevant to Hebrew texts improves the results.
 
-# conclusion
+# conclusion first article
 ### These results suggest that there is no single most effective type of feature for all songs, and that the best feature set depends on the method used. 
 ![Figure_1](https://github.com/amitman7/NLP-/assets/118345516/a71e8861-c95a-432e-838b-e343e45f3b8b)
 
@@ -97,7 +99,7 @@ Data Extraction: We extracted relevant data from the generated JSON files, focus
 
 Statistical Analysis: Employing the extracted data, we conducted a series of statistical analyses to identify potential differences between the two time periods.
 
-# Conclusions
+# Conclusions statistics
 
 Our analysis of syntactic features, word lengths, and gender usage revealed intriguing differences between the "Dor HaMedina" and contemporary songs:
 
@@ -124,7 +126,7 @@ The statistical analysis highlights substantial differences between "Dor HaMedin
 
 # second article
 
-The paper presents a framework called "CorPerds" that enables the automatic classification of text into different time periods. This is achieved by first performing a preliminary temporal classification by the method's implementer, followed by a more refined classification into a smaller and unique set of time periods while preserving the chronological order of the texts.
+The paper *"Corpus Periodization Framework to Periodize a Temporally Ordered Text Corpus"* presents a framework called "CorPerds" that enables the automatic classification of text into different time periods. This is achieved by first performing a preliminary temporal classification by the method's implementer, followed by a more refined classification into a smaller and unique set of time periods while preserving the chronological order of the texts.
 
 This paper is unique in that, at the time of its writing, there were no relatively simple and easy-to-implement methods available for this concept, making it a powerful research tool for many parties.
 
@@ -134,7 +136,7 @@ Next, we aim to further consolidate these segments by examining the proximity of
 
 # third article
 
-#Conclusion
+# Conclusion
 
 In conclusion, the study revealed significant differences between "Dor HaMedina" and contemporary songs. These distinctions manifest in the songs content, syntax, various syntactic elements, and sentence and song lengths. While some of these changes provide insights into the ethos and spirit of the respective eras, others remain difficult to definitively interpret in terms of their temporal context.
 
