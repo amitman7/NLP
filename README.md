@@ -60,9 +60,9 @@ it should be noted  that we performed the model on a relatively limited dataset.
 
 #  BERT 
 
-To further investigate the differences between the two sets of songs, *"Dor HaMedina"* and contemporary songs, we conducted an additional analysis to determine whether there is a correlation between the syntactic structure of the words and the type of song.
+To further investigate the differences between the two sets of songs, *"Dor HaMedina"* and *contemporary songs*, we conducted an additional analysis to determine whether there is a correlation between the syntactic structure of the words and the type of song.
 
-This analysis was performed using a morphological tool called "New Dictate Parser - BERT". We parsed each song using BERT and obtained a JSON file containing various analyses for each word in the song. For each word, we extracted its syntactic structure (verb, noun, etc.). This created a new text for each song containing the syntactic word types.
+This analysis was performed using a morphological tool called *"New Dictate Parser - BERT"*. We parsed each song using BERT and obtained a JSON file containing various analyses for each word in the song. For each word, we extracted its syntactic structure (verb, noun, etc.). This created a new text for each song containing the syntactic word types.
 
 For example, a new text might look like this: "ADV AUX PRON ADJ PRON PRON ADJ ADV NOUN VERB PRON PROPN SCONJ AUX PRON VERB PRON NOUN VERB VERB PRON ADV ADV ADP SCONJ PRON VERB VERB VERB SCONJ NOUN VERB ADP SCONJ PRON VERB VERB"
 
@@ -101,7 +101,7 @@ Statistical Analysis: Employing the extracted data, we conducted a series of sta
 
 Our analysis of syntactic features, word lengths, and gender usage revealed intriguing differences between the "Dor HaMedina" and contemporary songs:
 
-Syntactic Features:
+### Syntactic Features:
 
 Verbs and Adverbs: "Dor HaMedina" songs exhibited a lower frequency of verbs and adverbs compared to contemporary songs.
 
@@ -109,13 +109,13 @@ Adjectives, Nouns, and Punctuation: In contrast, "Dor HaMedina" songs displayed 
 
 Other Syntactic Word Types: Further investigation revealed additional distinctions in the usage of specific syntactic word types.
 
-Word Lengths:
+### Word Lengths:
 
 Word Length: The average word length in "Dor HaMedina" songs was similar to that in contemporary songs.
 
 Sentence and Song Length: However, the average sentence length and song length were nearly twice as long in contemporary songs compared to "Dor HaMedina" songs.
 
-Gender Usage:
+### Gender Usage:
 
 Gender Distribution: The results indicated no significant difference in gender usage between "Dor HaMedina" and contemporary songs, with a roughly equal distribution of masculine and feminine words.
 Overall Summary:
@@ -134,6 +134,9 @@ Next, we aim to further consolidate these segments by examining the proximity of
 
 # third article
 
+#Conclusion
+
+In conclusion, the study revealed significant differences between "Dor HaMedina" and contemporary songs. These distinctions manifest in the songs content, syntax, various syntactic elements, and sentence and song lengths. While some of these changes provide insights into the ethos and spirit of the respective eras, others remain difficult to definitively interpret in terms of their temporal context.
 
 
 
