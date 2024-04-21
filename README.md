@@ -1,5 +1,5 @@
 # NLP
-NLP Project I Worked on During My Degree.
+NLP Project I Worked on During My Degree.\n
 During our work, we wanted to explore the differences between the songs of our time (the 21st century) and older songs written by poets of the "Generation of the State" (Dor HaMedina)
 
 # Research Question
