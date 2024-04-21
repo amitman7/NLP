@@ -32,7 +32,7 @@ In scikit-learn, we used three methods:
     SVM Liblinear
     SVM Libsvm
 
-* we used the code suggested in the paper from: github.com/jpotts18/stylometry
+* we used the code suggested in the paper from: *github.com/jpotts18/stylometry* and made some changes to adapt it to our data and goals.
 
 # results
 
@@ -88,6 +88,8 @@ In addition to the previous analysis, we conducted a further investigation of th
 ![Figure_1](https://github.com/amitman7/NLP/assets/118345516/71e5c6ce-ff70-45f9-b928-90ef9013b81c)
 
 As evident from the results, this approach effectively highlights a significant difference between the two time periods and demonstrates the algorithm's ability to classify the distinct eras.
+
+* for the PCA we used the code of *github.com/jpotts18/stylometry* as well.
 
 # statistics 
 
