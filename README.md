@@ -1,6 +1,6 @@
 # NLP
 NLP Project I Worked on During My Degree.
-During our work, we wanted to explore the differences between the songs of our time (the 21st century) and older songs written by poets of the "Generation of the State("Dor HaMedina")"
+During our work, we wanted to explore the differences between the songs of our time (the 21st century) and older songs written by poets of the "Generation of the State" (Dor HaMedina)
 
 # Research Question
 Does the content of Hebrew songs written between 1930-1970 (by the poets of the Generation of the State) differ from that of contemporary songs (songs written in the 21st century)? If so, what are the differences, and what do they tell us about the changing ethos of the Jewish people?
