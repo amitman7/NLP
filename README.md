@@ -60,7 +60,7 @@ it should be noted  that we performed the model on a relatively limited dataset.
 
 #  BERT 
 
-To further investigate the differences between the two sets of songs, "Dor HaMedina" and contemporary songs, we conducted an additional analysis to determine whether there is a correlation between the syntactic structure of the words and the type of song.
+To further investigate the differences between the two sets of songs, *"Dor HaMedina"* and contemporary songs, we conducted an additional analysis to determine whether there is a correlation between the syntactic structure of the words and the type of song.
 
 This analysis was performed using a morphological tool called "New Dictate Parser - BERT". We parsed each song using BERT and obtained a JSON file containing various analyses for each word in the song. For each word, we extracted its syntactic structure (verb, noun, etc.). This created a new text for each song containing the syntactic word types.
 
